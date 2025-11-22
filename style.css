@@ -30,3 +30,41 @@ img {
 p {
   color: white;
 }
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+#modal img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 5%;
+}
+
+#close, #prev, #next {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+#close {
+    top: 20px;
+    right: 30px;
+}
+
+#prev {
+    top: 50%;
+    left: 20px;
+}
+
+#next {
+    top: 50%;
+    right: 20px;
+}
