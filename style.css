@@ -16,6 +16,12 @@ li {
   font-size: 18px;
   gap: 10px;
 }
+.enlarged {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 img {
   margin: 10px;
   width: 300px;
