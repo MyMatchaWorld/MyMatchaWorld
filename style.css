@@ -10,6 +10,9 @@ a:link, a:visited {
   text-decoration: none;
   background-color: rgb(245, 245, 220, 0.726);
 }
+ul {
+    list-style-type: decimal;
+}
 li {
   color: white;
   font-weight: bold;
